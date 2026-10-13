@@ -9,7 +9,7 @@ Se utilizan dos datasets públicos del sitio del Gobierno de la Ciudad de Buenos
 * [Siniestros viales](https://data.buenosaires.gob.ar/ar/dataset/victimas-siniestros-viales/resource/40ec993a-00ad-40e5-936f-0a25f8d2c90b)
 * [Comunas de CABA](https://data.buenosaires.gob.ar/el/dataset/comunas)
 
-Los datasets se encuentran en la carpeta Datasets/ del repositorio, de la cual el notebook lee directamente.
+Los datasets se encuentran en la carpeta data/ del repositorio, de la cual el notebook lee directamente.
 
 ## Dependencies
 * Python 3.13
@@ -26,7 +26,7 @@ Con las variables disponibles, el modelo obtuvo un rendimiento similar al baseli
  
 ## Repository structure
 ```
-├── Datasets/
+├── data/
 │   ├── siniestros_viales_hechos.csv
 │   └── comunas.geojson
 ├── Trabajo_final.ipynb
