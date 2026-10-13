@@ -9,7 +9,7 @@ Se utilizan dos datasets públicos del sitio del Gobierno de la Ciudad de Buenos
 * [Siniestros viales](https://data.buenosaires.gob.ar/ar/dataset/victimas-siniestros-viales/resource/40ec993a-00ad-40e5-936f-0a25f8d2c90b)
 * [Comunas de CABA](https://data.buenosaires.gob.ar/el/dataset/comunas)
 
-Los datasets se encuentran en la carpeta data/ del repositorio, de la cual el notebook lee directamente.
+Los datasets utilizados en el notebook se encuentran en la carpeta data/ de este repositorio. El notebook los carga directamente desde GitHub mediante URLs públicas, por lo que no es necesario descargarlos manualmente.
 
 ## Dependencies
 * Python 3.13
