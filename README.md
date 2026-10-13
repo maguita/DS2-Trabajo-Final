@@ -22,7 +22,7 @@ Los datasets se encuentran en la carpeta Datasets/ del repositorio, de la cual e
 
 ## Results
 El modelo final, XGBoost con objetivo Poisson, obtuvo en 2025 un Lift@5% de 2,64, lo que significa que el 5% de las combinaciones detectadas como de mayor riesgo registró en promedio 2,6 veces más siniestros que el promedio general.
-Con las variables disponibles, el modelo no supera a un baseline de promedio histórico por combinación. El detalle está en las conclusiones del notebook.
+Con las variables disponibles, el modelo obtuvo un rendimiento similar al baseline de promedio histórico por combinación. En la validación cruzada no logró superarlo, mientras que en los datos de prueba de 2025 obtuvo resultados ligeramente mejores. El detalle está en las conclusiones del notebook.
  
 ## Repository structure
 ```
